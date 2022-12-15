@@ -14,4 +14,20 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>Saxonica</id>
+            <name>Saxonica</name>
+            <url>https://dev.saxonica.com/maven/</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.saxonica</groupId>
+            <artifactId>Saxon-EE</artifactId>
+            <version>11.4</version>
+        </dependency>
+    </dependencies>
+
 </project>
